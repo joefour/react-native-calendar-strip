@@ -558,7 +558,7 @@ class CalendarStrip extends Component {
   };
 
   renderDay(props) {
-    return <CalendarDay {...props} isWeeKView={this.props.isWeeKView} />;
+    return <CalendarDay {...props} isWeeKView={this.props?.isWeeKView} />;
   }
 
   renderHeader() {
